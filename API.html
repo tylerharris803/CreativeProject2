@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kicks</title>
+  </head>
+  <body>
+
+    <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active menu-font active-title" aria-current="page" href="#">API</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-font" href="index.html"> Home </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-font" href="womens.html"> Women </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-font" href="mens.html"> Men </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-font" href="about.html"> About </a>
+    </li>
+  </ul>
+
+<div class="container jokeBox">
+  <p class = "NBAteamstext"> Click the Button for a Random Joke! </p>
+  <p class= black>____</p>
+  <button onclick="clickJoke()" class="pure-button pure-button-primary">Joke Button</button>
+</div>
+
+<div class="container center jokeanswer weathertext">
+  <div class="container main">
+  <div id="jokeResult">
+  </div>
+  </div>
+</div>
+
+
+<div class="container jokeBox NBAteamstext">
+    <form>
+      <label class = NBAteamstext>Enter your city for your current weather!</label>
+      <input id="weatherInput" type="text"></input><br />
+      <input id="weatherSubmit" type="submit" value="Submit"></input>
+    </form>
+  </div>
+
+<div class="container center weathertext">
+  <div class="container main">
+  <div id="weatherResults">
+  </div>
+  </div>
+</div>
+
+
+<div class= 'container NBAteamscontainer NBAteamstext'>
+  <ul>
+   <li>1 = Hawks</li>
+   <li>2 = Celtics</li>
+   <li>3 = Nets</li>
+   <li>4 = Hornets </li>
+   <li>5 = Bulls </li>
+   <li>6 = Cavs</li>
+   <li>7 = Mavs</li>
+   <li>8 = Nuggets</li>
+   <li>9 = Pistons </li>
+   <li>10 = Warriors </li>
+   <li>11 = Rockets</li>
+   <li>12 = Pacers</li>
+   <li>13 = Clippers</li>
+   <li>14 = Lakers </li>
+   <li>15 = Grizzlies </li>
+   <li>16 = Heat</li>
+   <li>17 = Bucks</li>
+   <li>18 = Timberwolves</li>
+   <li>19 = Pelicans </li>
+   <li>20 = Knicks </li>
+   <li>21 = Thunder</li>
+   <li>22 = Magic</li>
+   <li>23 = 76ers</li>
+   <li>24 = Suns </li>
+   <li>25 = Trail Blazers</li>
+   <li>26 = Kings</li>
+   <li>27 = Spurs</li>
+   <li>28 = Raptors</li>
+   <li>29 = Jazz </li>
+   <li>30 = Wizards </li>
+  </ul>
+</div>
+
+<div class="container jokeBox NBAteamstext">
+    <form>
+      <label class = NBAteamstext>Enter the ID # of the NBA team you want to know more about!</label>
+      <input id="nbaID" type="text"></input><br />
+      <input id="nbaSubmit" type="submit" value="Submit"></input>
+    </form>
+  </div>
+
+  <div class="container center nbaanswer weathertext">
+    <div class="container main">
+    <div id="nbaResult">
+    </div>
+    </div>
+  </div>
+
+  <div class='footer'>
+  <div class='footer-item footer-one'></div>
+  <div class='footer-item footer-two'>
+     <p class='footer-text'>Github repository: </p>
+      <p class= 'footer-text'> https://github.com/tylerharris803/Creative-Website.git --- Click <a href='https://github.com/tylerharris803/Creative-Website.git'>here</a> to go to the Github repository.</p>
+  </div>
+  <div class='footer-item footer-three'></div>
+</div>
+
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ </body>
+</html>

@@ -1,0 +1,206 @@
+body {
+  background: #000000 !important;
+}
+img{
+  width: 100%;
+}
+
+.menu-font{
+    color: white;        /* Light gray */
+    font-weight: bold;
+    font-size: 30px;
+
+    font-family: "Fantasy", Copperplate;
+  }
+.padding{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.row {
+  display: flex;
+}
+.col {
+  flex: 33.33%;
+  padding: 5px;
+}
+.column-shoe {
+  flex: 33.33%;
+  padding: 100px;
+  justify-content: center;
+}
+
+.title{
+  color: white;        /* Light gray */
+  font-weight: light;
+  font-size: 100px;
+  font-family: "Alfa Slab One";
+  text-align: center;
+
+  text-shadow: 2px 2px #ff0000;
+  text-decoration: line-through;
+}
+.active-title{
+  color: red;        /* Light gray */
+  font-weight: bold;
+  font-size: 30px;
+
+  font-family: "Fantasy", Copperplate;
+}
+.item-text{
+  color: white;        /* Light gray */
+  font-weight: normal;
+  font-size: 30px;
+
+  font-family: 'Bebas Neue';
+}
+.price-text{
+  color: red;        /* Light gray */
+  font-weight: normal;
+  font-size: 30px;
+  text-shadow: 1px 1px white;
+  font-family: "Fantasy", Copperplate;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-item {
+  border: 5px solid black;
+  background-color: black;
+  height: 125px;
+  flex: 1;
+}
+.footer-one,
+.footer-three {
+  border: 1px solid black;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgba(215,25,27,0.7217261904761905) 100%);
+  flex: initial;
+  width: 200px;
+}
+.footer-text{
+  font-family: 'Bebas Neue';
+  color: lightgrey;
+  font-weight: bold;
+  font-size: 25.3px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  border: 1px solid #000000;
+  width: 300px;
+  height: 300px;
+}
+.avatar {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 25px;
+  border-radius: 40px;
+  background-color: grey;
+}
+
+.username {
+  margin-top: 30px;
+  color:white;
+}
+
+.comment {
+  margin: 10px;
+  overflow: hidden;  /* This is important */
+  color: lightgrey;
+}
+.contact-us{
+  color: white;        /* Light gray */
+  font-weight: light;
+  font-size: 50px;
+  font-family: "Alfa Slab One";
+  text-align: center;
+}
+.NBAteamscontainer{
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.NBAteamstext{
+  color: white;        /* Light gray */
+  font-weight: lighter;
+  font-size: 25px;
+  font-family: "Alfa Slab One";
+  text-align: center;
+}
+.weathertext{
+  color: red;        /* Light gray */
+  font-weight: lighter;
+  font-size: 25px;
+  font-family: "Alfa Slab One";
+  text-align: center;
+}
+.buttontext{
+  color: white;        /* Light gray */
+  font-weight: light;
+  font-size: 30px;
+  font-family: "Alfa Slab One";
+  text-align: center;
+}
+.buttontime{
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.jokeBox{
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.black{
+  color: black;
+}
+.jokeanswer{
+  background: white;
+  border-color: : red;
+}
+.nbaanswer{
+  background: lightgrey;
+  border-color: : red;
+  border: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .sign-up,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 50%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
